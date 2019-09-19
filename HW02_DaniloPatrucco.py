@@ -11,6 +11,8 @@ import math
 
 # triangle
 
+turtle.speed(10)
+
 turtle.forward(100)
 turtle.left(120)
 turtle.forward(100)
@@ -60,11 +62,13 @@ turtle.circle(100)
 turtle.circle(150)
 turtle.circle(200)
 
+turtle.done()
+
 # Exercise 3
 
 # a
 
-print('100!')
+print('factorial of 100 is : ', math.factorial(100))
 
 # b
 
