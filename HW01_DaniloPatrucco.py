@@ -33,16 +33,17 @@ dog_breeds = ['collie', 'sheepdog', 'Chow', 'Chihuahua']
 
 print('\r\n', 'Exercise 2.b', '\r\n')
 sliceVar = slice(2)
-print(dog_breeds[sliceVar])
+herdingDog = dog_breeds[sliceVar]
+print(herdingDog)
 
 # 2.c
 
 print('\r\n' + 'Exercise 2.c' + '\r\n')
-tiny_dogs = dog_breeds[3]
+tiny_dogs = dog_breeds[-1]
 print(tiny_dogs)
 
 # 2.d
 
 print('\r\n' + 'Exercise 2.d' + '\r\n')
 comp = 'Persian'
-print(comp in dog_breeds)
+print('Is persian present in the list ? {T/F} : ', comp in dog_breeds)
