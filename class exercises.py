@@ -32,3 +32,20 @@ print(lst)
 age=int(input('what is your age'))
 name=input('what is your name')
 print(name, ', next year you will be', str(age+1), 'years old!')
+
+total=0
+if True or False:
+    total += 1
+elif not True or not False:
+    total += 2
+else:
+    total += 4
+
+if True and False:
+    total += 8
+elif True:
+    total += 16
+
+print(total)
+
+# total is going to be 17
