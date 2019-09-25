@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
+    <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="fixed HW02">
+      <change afterPath="$PROJECT_DIR$/HW04_DaniloPatrucco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW05_DaniloPatrucco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW02_DaniloPatrucco.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW02_DaniloPatrucco.py" afterDir="false" />
     </list>
@@ -42,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HW02_DaniloPatrucco">
+  <component name="RunManager" selected="Python.HW03_DaniloPatrucco">
     <configuration name="HW00_DaniloPatrucco" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568852851056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed HW02">
+      <created>1568936035643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568936035644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +222,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="class nr 2 done" />
     <MESSAGE value="hw 2 and 3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2 and 3 done" />
+    <MESSAGE value="fixed HW02" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed HW02" />
   </component>
 </project>

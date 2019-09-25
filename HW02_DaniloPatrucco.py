@@ -10,6 +10,10 @@ import math
 # Exercise 1
 
 # triangle
+scrn = turtle.Screen()
+trtl = turtle.Turtle()
+
+# instead of turtle.speed you can do trtl.speed
 
 turtle.speed(10)
 
