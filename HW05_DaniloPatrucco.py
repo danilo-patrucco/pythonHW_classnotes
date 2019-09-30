@@ -40,6 +40,7 @@ print('Non Empty list', lst3)
 
 print('\n\rExercise 2.b\n\r')
 
+
 def isDivisible(maxInt, twoInts):
     # initialize an empty list to return when the function is completed.
     lst = []
@@ -55,31 +56,25 @@ def isDivisible(maxInt, twoInts):
     return lst
 
 
-maxInt_1 = int(input('Please type an integer (Any number without a comma): '))
-twoInts_1_1 = int(input('Please type another integer: '))
-twoInts_1_2 =int(input('Please type another integer: '))
-twoInts_1 = (twoInts_1_1, twoInts_1_2)
+maxInt_1 = int()
+twoInts_1 = tuple()
 
 lst4 = isDivisible(maxInt_1, twoInts_1)
 
 print('\n\r', lst4, '\n\r')
 
-maxInt_2 = int(input('Please type an integer (Any number without a comma): '))
-twoInts_2_1 = int(input('Please type another integer: '))
-twoInts_2_2 =int(input('Please type another integer: '))
-twoInts_2 = (twoInts_2_1, twoInts_2_2)
+maxInt_2 = int(1050)
+twoInts_2 = ("2", "5")
 
 lst5 = isDivisible(maxInt_2, twoInts_2)
 
-print('\n\r',lst5, '\n\r')
+print('\n\r', lst5, '\n\r')
 
-maxInt_3 = int(input('Please type an integer (Any number without a comma): '))
-twoInts_3_1 = int(input('Please type another integer: '))
-twoInts_3_2 =int(input('Please type another integer: '))
-twoInts_3 = (twoInts_3_1, twoInts_3_2)
+maxInt_3 = int(122)
+twoInts_3 = ("10", "6")
 
 lst6 = isDivisible(maxInt_3, twoInts_3)
 
-print('\n\r',lst6)
+print('\n\r', lst6)
 
 # I did not make this code DRY because i wanted to show the tought process, otherwise i would have just created a function to get the inputs. Let me know if that is ok or not.

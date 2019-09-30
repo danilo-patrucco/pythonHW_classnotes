@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569455236264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW05 finished and commented">
+      <created>1569793303873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569793303873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +290,7 @@
     <MESSAGE value="fixed HW02" />
     <MESSAGE value="HW04 and 05 created" />
     <MESSAGE value="HW04 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW04 completed" />
+    <MESSAGE value="HW05 finished and commented" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW05 finished and commented" />
   </component>
 </project>
