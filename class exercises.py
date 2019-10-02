@@ -21,7 +21,6 @@ lst.sort()
 
 print(lst)
 
-'''
 # when you slice a list you get a list in output
 
 # lst[1:1] will return nothing inside of a list ( will return [])
@@ -49,3 +48,20 @@ elif True:
 print(total)
 
 # total is going to be 17
+
+
+letters = ['s', 'r', 'a', 'c', 's', 'o']
+concat = letters[-5] + letters[2] + letters[-3]
+print(concat)
+'''
+
+def getNegativeNum(integ):
+    while integ >= 0:
+        integ = int(input("write a negative number"))
+
+    return integ
+
+
+integerNumber = 0
+finalcountdown = getNegativeNum(integerNumber)
+print("Good Job! The number written is ", finalcountdown)
