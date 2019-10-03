@@ -1,5 +1,5 @@
-#class exercises
-'''
+# class exercises
+"""
 
 lst = ['159.99', '160.00', '205.95', '128.83', '175.49']
 
@@ -53,7 +53,7 @@ print(total)
 letters = ['s', 'r', 'a', 'c', 's', 'o']
 concat = letters[-5] + letters[2] + letters[-3]
 print(concat)
-'''
+
 
 def getNegativeNum(integ):
     while integ >= 0:
@@ -65,3 +65,86 @@ def getNegativeNum(integ):
 integerNumber = 0
 finalcountdown = getNegativeNum(integerNumber)
 print("Good Job! The number written is ", finalcountdown)
+
+
+thresh = 502
+prev = 1
+curr = 1
+
+# update two variables at the same time
+
+while curr <= thresh:
+    prev, curr = curr, curr + prev
+
+
+print(curr)
+
+
+
+
+def cities():
+    returnList = []
+    while True:
+        city = input("City:")
+
+        if city == '':
+            return returnList
+        returnList.append(city)
+
+cities()
+
+
+def cities2():
+    returnList = []
+    city = input("City:")
+    while city != '':
+        city = input("City:")
+        returnList.append(city)
+
+    return returnList
+
+cities2()
+
+
+
+cities = []
+
+while True:
+    city = input("City: ")
+    if city == "":
+        break
+    cities.append(city)
+
+print(cities)
+
+"""
+
+# continue and break in nested loops
+
+def before (table):
+    for row in table:
+        for num in row:
+            if num == 0:
+                break
+            print(num, end='')
+        print()
+table = [
+    [1,0,3,4,5],
+    [1,6,7,0,9],
+    [12,67,54,0,12]]
+
+before(table)
+
+
+def ignore(table):
+    for row in table:
+        for num in row:
+            if num == 0:
+                continue
+            print(num, end="")
+        print ()
+
+
+ignore(table)
+
+
