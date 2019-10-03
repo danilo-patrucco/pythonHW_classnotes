@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW06_DaniloPatrucco.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW06_DaniloPatrucco.py" afterDir="false" />
     </list>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569881703014</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task: Problem 1 completed">
+      <created>1570141770536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570141770536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,6 +329,7 @@
     <MESSAGE value="HW04 completed" />
     <MESSAGE value="HW05 finished and commented" />
     <MESSAGE value="fixed HW05" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed HW05" />
+    <MESSAGE value="Task: Problem 1 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: Problem 1 completed" />
   </component>
 </project>
