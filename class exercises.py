@@ -142,7 +142,7 @@ def ignore(table):
             if num == 0:
                 continue
             print(num, end="")
-        print ()
+        print()
 
 
 ignore(table)
