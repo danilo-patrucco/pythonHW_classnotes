@@ -117,7 +117,6 @@ while True:
 
 print(cities)
 
-"""
 
 # continue and break in nested loops
 
@@ -146,5 +145,7 @@ def ignore(table):
 
 
 ignore(table)
+
+"""
 
 

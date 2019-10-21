@@ -66,7 +66,7 @@ def number_luck(lucky, unlucky):
 l = [3,4,5]
 u = [6,7,8]
 
-'''
+
 
 def month_info(medium_lenght):
     month = str(input('What month is it?'))
@@ -80,3 +80,6 @@ def month_info(medium_lenght):
     return month
 
 print(month_info(30))
+
+'''
+

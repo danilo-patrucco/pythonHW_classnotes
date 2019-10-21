@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HW07_DaniloPatrucco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/class exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +33,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -49,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exam">
+  <component name="RunManager" selected="Python.HW07_DaniloPatrucco.py">
     <configuration name="HW00_DaniloPatrucco" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,6 +204,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="HW07_DaniloPatrucco.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW07_DaniloPatrucco.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="class exercises" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,9 +253,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exam.py" />
@@ -248,6 +276,7 @@
       <item itemvalue="Python.HW05_DaniloPatrucco" />
       <item itemvalue="Python.HW06_DaniloPatrucco" />
       <item itemvalue="Python.class exercises" />
+      <item itemvalue="Python.HW07_DaniloPatrucco.py" />
       <item itemvalue="Python.HW01_DaniloPatrucco" />
     </list>
     <recent_temporary>
@@ -337,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570665393901</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix : added some blocks of code">
+      <created>1570667630743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570667630743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,6 +401,7 @@
     <MESSAGE value="fixed HW05" />
     <MESSAGE value="Task: Problem 1 completed" />
     <MESSAGE value="Task : 1st exam file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task : 1st exam file added" />
+    <MESSAGE value="fix : added some blocks of code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix : added some blocks of code" />
   </component>
 </project>
