@@ -140,7 +140,6 @@ Bells, bells, bells--
 To the moaning and the groaning of the bells.
 '''
 
-
 # Canto XII from The Heights of Macchu Picchu
 # Pablo Neruda
 cantoXII = '''
@@ -202,6 +201,7 @@ Speak through my speech, and through my blood.
 
 import string
 
+
 def litCricFriend(wordList, text):
     ''' The Literary Critic's Friend helps the humanities scholar
     by computing and returning the frequency with which specified words
@@ -214,36 +214,53 @@ def litCricFriend(wordList, text):
     # PROBLEM 1. Write a string method call that lower cases all
     # of the characters in text. One line of code. Hint: assign the
     # lower-cased text to a new variable name.
-
+    lowText = text.lower()
     # PROBLEM 2. Write a string method call that replaces every
     # m-dash ('--') in the lower-cased text with a space (' '). 
     # One line of code.
-    
+    lowText.replace('--', ' ')
     # PROBLEM 3. Write a string method call that splits text into a
     # list of words (after they have been lower-cased, and the
     # m-dashes removed). One line of code.
-
+    lowText = lowText.split()
     # PROBLEM 4. Write a loop that creates a new word list, using a
     # string method to strip the words from the list created in Problem 3
     # of all leading and trailing punctuation. Hint: the string library,
     # which is imported above, contains a constant named punctuation.
     # Three lines of code.
+    outList = []
+    for i in range(len(lowText)):
+        outList.append(lowText[i].strip(string.punctuation))
 
     # PROBLEM 5. Write a loop that sums the number of times that the
     # words in wordList occur in the list from Problem 4. Hint 1: you
     # can use a list method to do the counting. Hint 2: lower case the
     # words in wordList. Between three and five lines of code. (It
     # depends on your coding style -- various styles are OK.)
+    wordList = wordList.split(',')
+    if len(wordList) == 2:
+        count2 = outList.count(wordList[1])
+    count1 = outList.count(wordList[0])
 
     # PROBLEM 6. Calculate the ratio of the number from Problem 5
     # to the number of words in text. Return this ratio. Between one
     # and three lines of code. (It depends on your coding style --
     # various styles are OK.)
 
+    if len(wordList) == 2:
+        return 'AAnFrequency', count1 / len(outList), count2 / len(outList)
+    return 'theFrequency', count1 / len(outList)
+
+
 # PROBLEM 7. Call litCricFriend() four times to find the frequency
 # of the indefinite articles 'a' and 'an' and the definite article
 # 'the' in the two poems above. Print out the value returned by
 # each function call, identifying what it is. For example, it might say
+
+print(litCricFriend('a,an', theBells))
+print(litCricFriend('the', theBells))
+print(litCricFriend('a,an', cantoXII))
+print(litCricFriend('the', cantoXII))
 
 # >>> bellsAAnFrequency 0.07265587064676617.
 
@@ -255,5 +272,6 @@ def litCricFriend(wordList, text):
 
 '''
 Put your answer to PROBLEM 8 here.
+Yes, Poe uses more 'a' than neruda (five times), while neruda uses more 'an' than poe.
+Poe also uses 'the' more often than Neruda (almost three times more).
 '''
-
