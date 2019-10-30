@@ -218,7 +218,7 @@ def litCricFriend(wordList, text):
     # PROBLEM 2. Write a string method call that replaces every
     # m-dash ('--') in the lower-cased text with a space (' '). 
     # One line of code.
-    lowText.replace('--', ' ')
+    lowText = lowText.replace('--', ' ')        # assign to a variable always
     # PROBLEM 3. Write a string method call that splits text into a
     # list of words (after they have been lower-cased, and the
     # m-dashes removed). One line of code.
