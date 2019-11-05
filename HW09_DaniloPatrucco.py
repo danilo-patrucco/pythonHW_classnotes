@@ -3,6 +3,7 @@
 # HW 09, November 04, 2019
 
 import re
+import string
 
 print("\r\nProblem 1: \r\n")
 
@@ -32,6 +33,24 @@ def file_stats(in_file):
 
 
 stats = file_stats('test.txt')
-print('\n','nr of lines',stats[0],'\n','nr of words',stats[1], '\n', 'nr of letters', stats[2])
+
+print('\n','nr of lines',stats[0],'\n','nr of words',stats[1], '\n', 'nr of chars', stats[2])
 
 print("\r\nProblem 3: \r\n")
+
+def repeat_words (in_file,out_file):
+    infile = open(in_file, 'r')
+    readInFile = infile.read()
+    lowText = readInFile.lower()
+    lowText = lowText
+    nrLines = lowText.splitlines()
+    newList = []
+    for i in nrLines:
+        newList.append(re.sub(r'[^A-Za-z0-9 ]+', '', i))
+
+    print(nrLines)
+
+    return newList
+
+
+print(repeat_words('infile2.txt','outfile2.txt'))

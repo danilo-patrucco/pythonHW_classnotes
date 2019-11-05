@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/infile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infile2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" afterDir="false" />
     </list>
@@ -429,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572923418902</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Task: problem 1 and 2 finished">
+      <created>1572928328195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572928328195</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,6 +466,7 @@
     <MESSAGE value="fix : added some blocks of code" />
     <MESSAGE value="fix : fixed HW08, added variable assignment missing." />
     <MESSAGE value="Task: prepped hw 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: prepped hw 09" />
+    <MESSAGE value="Task: problem 1 and 2 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: problem 1 and 2 finished" />
   </component>
 </project>
