@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/class exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -421,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572478821324</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task: prepped hw 09">
+      <created>1572923418902</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1572923418902</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +459,7 @@
     <MESSAGE value="Task : 1st exam file added" />
     <MESSAGE value="fix : added some blocks of code" />
     <MESSAGE value="fix : fixed HW08, added variable assignment missing." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix : fixed HW08, added variable assignment missing." />
+    <MESSAGE value="Task: prepped hw 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: prepped hw 09" />
   </component>
 </project>
