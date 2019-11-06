@@ -32,6 +32,7 @@ def file_stats(in_file):
     nr_words = re.split('\n| ', in_line)
     counts.append(len(nr_words))
     counts.append(len(in_line))
+    infile.close()
     return counts
 
 
@@ -69,3 +70,57 @@ def repeat_words(in_file, out_file):
 
 
 repeat_words('infile2.txt', 'outfile2.txt')
+
+
+#problem 3 in class
+# WITH LIST
+
+def repeat_words(in_file, out_file):
+    inf = open(in_file, 'r')
+    outf = open(out_file, 'w')
+    lines = inf.readlines()
+    for line in lines:
+        line = line.lower()
+        words = line.split()
+        clean_words = []
+        for word in words:
+            clean_word = word.strip(string.punctuation)
+            clean_words.append(clean_word)
+        dups = []
+        for word in clean_words:
+            if word not in dups and clean_words.count(word) > 1:
+                dups.append(word)
+        for word in dups:
+            outf.write(word + ' ')
+        outf.write('\n')
+        inf.close()
+        outf.close()
+
+
+# WITH DICTIONARIES
+
+def repeat_words(in_file, out_file):
+    inf = open(in_file, 'r')
+    outf = open(out_file, 'w')
+    lines = inf.readlines()
+    for line in lines:
+        line = line.lower()
+        words = line.split()
+        clean_words = []
+        for word in words:
+            clean_word = word.strip(string.punctuation)
+            clean_words.append(clean_word)
+        d = {}
+        for word in clean_words:
+            if word not in d:
+                d[word] = 1
+            else:
+                d[word] += 1
+        for word in d:
+            if d[word] > 1:
+                outf.write(word + ' ')
+        outf.write('\n')
+
+    inf.close()
+    outf.close()
+

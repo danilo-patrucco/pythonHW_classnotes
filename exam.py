@@ -83,3 +83,8 @@ print(month_info(30))
 
 '''
 
+#exam 2
+
+#remenmber the .readline() command, it will read a whole line of a text file and store it in a list
+
+
