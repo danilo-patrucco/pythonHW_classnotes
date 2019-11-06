@@ -43,26 +43,29 @@ print("\r\nProblem 3: \r\n")
 
 
 def repeat_words(in_file, out_file):
-    infile = open(in_file, 'r')
-    readInFile = infile.read()
+    inFile = open(in_file, 'r')
+    outFile = open(out_file, 'w')
+    readInFile = inFile.read()
     lowText = readInFile.lower()
     nrLines = lowText.splitlines()
     newListlines = []
-    outlist = []
     for i in nrLines:
         newListlines.append(re.sub(r'[^A-Za-z0-9 ]+', '', i))
     for i in newListlines:
-        emptString = ''
+        emptList = []
         newListwords = i.split()
         for l in newListwords:
-            if newListwords.count(l) > 1 and l not in emptString:
-                emptString = emptString + l + " "
-        outlist.append(emptString)
+            if newListwords.count(l) > 1 and l not in emptList:
+                emptList.append(l)
+        for a in range(len(emptList)):
+            if len(emptList[a]) != 0:
+                outFile.write(emptList[a])
+                outFile.write(' ')
+            if len(emptList)-1 == a:
+                outFile.write('\n')
+    outFile.close()
 
-    return outlist
+    return
 
 
-cont = repeat_words('infile2.txt', 'outfile2.txt')
-for i in range(len(cont)):
-    if cont[i] != '':
-        print("Line ", i ," repeating words = ", cont[i])
+repeat_words('infile2.txt', 'outfile2.txt')
