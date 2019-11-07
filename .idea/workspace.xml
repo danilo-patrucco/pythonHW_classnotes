@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/outfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outfile2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW09_DaniloPatrucco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/exam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infile2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/infile2.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -463,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573000718019</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Task: problem 3 hw09 added class solutions">
+      <created>1573084575647</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573084575647</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,6 +501,7 @@
     <MESSAGE value="Task: problem 3 found a way to clean the list" />
     <MESSAGE value="Task: problem 3 almost completed, need to solve the match issue." />
     <MESSAGE value="Task: problem 3 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: problem 3 finished" />
+    <MESSAGE value="Task: problem 3 hw09 added class solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: problem 3 hw09 added class solutions" />
   </component>
 </project>

@@ -86,5 +86,9 @@ print(month_info(30))
 #exam 2
 
 #remenmber the .readline() command, it will read a whole line of a text file and store it in a list
-
-
+# remember to review the remainder and all that stuff from class beginning
+# remember the data type
+# if a key does not exist in a dictionary we will get a key error print(d[0][1]) means do two lookups, first find the value for d[0]
+# then do a lookup on key [1] and see if the result of d[0] (that will become a value) is present in [1]
+#if bool means if true
+#
