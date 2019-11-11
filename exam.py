@@ -263,17 +263,265 @@ print(indexByLength(text))
 
 # add a list to the dictionary before updating the list in the value position
 
-'''
+
 
 def cloneLines(inFile,outFile):
     inf = open(inFile, 'r')
     out = open(outFile, 'w')
     linelst = inf.readlines()
+    wordlst = []
     for i in linelst:
-        words = i.split()
+        cont = i
+        cont.split(wordlst)
+        print(wordlst)
+        if (linelst.count(i)) >= 2:
+            inf.write(i)
+
+
+def cloneLines(inFile, outFile):
+    inF = open(inFile, 'r')
+    outF = open(outFile, 'w')
+
+    for line in inF:
+        words = line.split()
+
+        for word in words:
+            if words.count(word) > 1:
+                outF.write(line)
+                break
+
+    inF.close()
+    outF.close()
+
+
 
 
 
 
 
 print(cloneLines('infile2.txt','outfile3.txt'))
+
+
+
+nurseryRhyme = 'Rain rain go away'
+vowelCount = 0
+n = -1
+while vowelCount < 3:
+    if nurseryRhyme[n] in 'aeiouAEIOU':
+        vowelCount += 1+
+    n -= 1
+print(n)
+
+
+def splitLength(sentence):
+    result = 0
+    for s in sentence.split():
+        print(s)
+        if len(s) > 3:
+            result += 1
+    return result
+
+
+lisa = 'Dad, are you listening to me?'
+print(splitLength(lisa))
+
+
+boolList = [False, False or False, False and False, not False, not not False]
+sum = 0
+for b in boolList:
+    if not b:
+        sum += 1
+print(sum)
+
+
+def mirrorOnWheels(s):
+    prev = 0
+    for current in range(1, len(s) - 1):
+        prev = current - 1
+        next = current + 1
+        if s[prev] == s[next]:
+            break
+        else:
+            continue
+        return 0
+    return prev
+
+
+s = 'Good decision!'
+print(mirrorOnWheels(s))
+
+noOddHeroes = []
+heroes = ['superman', 'batman', 'aquaman']
+for hero in heroes:
+    if len(hero) % 2 == 0:
+        noOddHeroes.append(hero)
+print(noOddHeroes)
+
+
+candyOnStick = 'lolli lolli lolli lollipop lollipop'
+wordList = candyOnStick.split('i')
+d = {}
+for word in wordList:
+    print(word)
+    if word not in d:
+        d[word] = 1
+    else:
+        d[word] += 1
+print(len(d))
+
+#when you specify the command it will always use that and not the others
+
+
+
+def oldMcDonald(farm):
+    result = 0
+    for animal in farm:
+        if animal[0] in farm[animal]:
+            result += 1
+    return result
+
+
+farm = {'cow':'moo', 'duck':'quack', 'cricket':'chirp'}
+print(oldMcDonald(farm))
+
+#animal[0] in farm[animal] is checking if the first letter of the word loaded in animal is present in the value called by farm[animal]
+
+
+def analyzer(fileName):
+    inputFile = open(fileName)
+    line = inputFile.read()
+    inputFile.close()
+    print(line)
+    return line.count(',')
+
+quotes = open('alice.txt', 'w')
+quotes.write('Now, here, you see, it takes all the running\n')
+quotes.write('you can do, to keep in the same place.\n')
+quotes.close()
+print(analyzer('alice.txt'))
+
+#it reads only the first line the readline, unless you run a loop
+
+
+def triangle(t, lenght):
+    t.down()
+    for i in range(3):
+        t.forward(lenght)
+        t.left(120)
+    return
+
+
+def umbrella(t, side, rotation, count):
+    for i in range(count):
+        triangle(t, side)
+        t.right(rotation)
+
+
+
+import turtle
+snappy = turtle.Turtle()
+umbrella(snappy, 100, 60, 6)
+
+# all good !
+
+
+
+def analyzeAreaCodes(phones):
+    d={}
+    for i in range(len(phones)):
+        areaCode = phones[i]
+        areaCode = areaCode[0:3]
+        if areaCode not in d:
+            d[areaCode] = 1
+        elif areaCode in d:
+            d[areaCode] += 1
+    return d
+
+phones = ['982-867-5309', '800-649-2568', '979-606-0842', '982-779-311']
+print(analyzeAreaCodes(phones))
+
+
+import string
+
+def lineStats(infile, outfile):
+    inF = open(infile, 'r')
+    outF = open(outfile, 'w')
+    for i in inF :
+        cons = 0
+        voc = 0
+        for l in i:
+            print(l)
+            if l in ('aeiouAEIOU'):
+                voc += 1
+            elif l not in ('aeiouAEIOU |\n'):
+                cons += 1
+        writeout = str(voc) + ' ' + str(cons) + '\n'
+        outF.write(writeout)
+    inF.close()
+    outF.close()
+
+lineStats('infile2.txt','outfile4.txt')
+
+
+
+def frequencyAnalysis(aStr, i):
+    d = {}
+    for element in aStr:
+        freq = aStr.count(element)
+        if element not in d:
+            d[element] = freq
+        elif aStr.count(element) >= i:
+            d[element] *= 2
+        else:
+            d[element] *= -2
+    return d[aStr[-1]]
+
+
+print(frequencyAnalysis('606', 1))
+
+
+
+def substring(a, b):
+    s = ''
+    while True:
+        if a in b:
+            continue
+        elif b in a:
+            return b
+        else:
+            return a
+    return s
+
+
+print(substring('ark', 'snark'))
+
+
+
+def textFunction(text):
+    words = text.split()
+    rtnList = []
+    for idx in range(len(words)-1):
+        word = words[idx]
+        if word in words[idx+1:]:
+            rtnList.append(word)
+    return rtnList
+
+s = 'I want what I want when I want it'
+print(textFunction(s))
+'''
+
+def test(t,o):
+    inF = open(t,'r')
+    outF = open (o,'w')
+    test1 = inF.readline()
+    test2 = inF.readlines()
+    for i in test1:
+        print(i)
+    print('test', '\n\n')
+    for l in test2:
+        print(l)
+    inF.close()
+    outF.close()
+    return
+
+test('infile2.txt','outfile5.txt')
