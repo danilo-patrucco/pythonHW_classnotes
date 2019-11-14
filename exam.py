@@ -508,7 +508,7 @@ def textFunction(text):
 
 s = 'I want what I want when I want it'
 print(textFunction(s))
-'''
+
 
 def test(t,o):
     inF = open(t,'r')
@@ -525,3 +525,70 @@ def test(t,o):
     return
 
 test('infile2.txt','outfile5.txt')
+
+
+
+def substring(a, b):
+    while a in b:
+        b = b[1:-1]
+        if a in b:
+            continue
+        elif b in a:
+            return b
+        else:
+            return a
+    return b
+
+print(substring('the','hypothermia'))
+
+
+
+
+booleans = [True and False, not False, False or True, not not False]
+binary = 0
+powerOfTwo = 8
+for boolean in booleans:
+    if boolean:
+        binary += powerOfTwo
+    powerOfTwo =powerOfTwo//2
+    print(powerOfTwo)
+
+
+
+
+print(binary)
+
+
+
+d = {}
+for x in range(1, 7):
+    d[x // 4] = x
+print(d)
+
+
+
+language = 'DRAKON'
+output = ''
+for w in language[:2]:
+    print(w)
+    output += w
+    print(output)
+    for x in language[-2:]:
+        print(x)
+        output += x
+        print(output)
+print(output)
+
+#output is donron
+
+
+
+polonius = 'To shine own self be true.'
+extreme = ''
+for word in polonius.split():
+    if not(len(word) < len(extreme)):
+        extreme = word
+print(extreme)
+
+'''
+print('test', '\n', 'test1', '\n', 'test1', '\n', 'test1', '\n')
