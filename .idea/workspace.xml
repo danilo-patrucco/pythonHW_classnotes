@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW11_DaniloPatrucco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/dog.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -545,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574023069430</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Task : HW 11 created">
+      <created>1574291002998</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574291002998</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -586,6 +593,7 @@
     <MESSAGE value="Task: tested all the exams" />
     <MESSAGE value="Task: added Classes" />
     <MESSAGE value="Task: HW 10 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: HW 10 completed" />
+    <MESSAGE value="Task : HW 11 created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task : HW 11 created" />
   </component>
 </project>
