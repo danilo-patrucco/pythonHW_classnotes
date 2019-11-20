@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65949329-8776-4f5a-b0a9-3fa7d594bdd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW11_DaniloPatrucco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classes">
+  <component name="RunManager" selected="Python.HW11_DaniloPatrucco">
     <configuration name="HW00_DaniloPatrucco" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,6 +267,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="HW11_DaniloPatrucco" type="PythonConfigurationType" factoryName="Python">
+      <module name="test1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="class exercises" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="test1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,6 +355,7 @@
       <item itemvalue="Python.exam" />
       <item itemvalue="Python.classes" />
       <item itemvalue="Python.HW00_DaniloPatrucco" />
+      <item itemvalue="Python.HW11_DaniloPatrucco" />
       <item itemvalue="Python.HW02_DaniloPatrucco" />
       <item itemvalue="Python.HW03_DaniloPatrucco" />
       <item itemvalue="Python.HW04_DaniloPatrucco" />
@@ -517,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573693911427</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Task: HW 10 completed">
+      <created>1574023069430</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574023069430</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,6 +585,7 @@
     <MESSAGE value="Task: working on exercise 13" />
     <MESSAGE value="Task: tested all the exams" />
     <MESSAGE value="Task: added Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: added Classes" />
+    <MESSAGE value="Task: HW 10 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: HW 10 completed" />
   </component>
 </project>
